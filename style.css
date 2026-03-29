@@ -1,8 +1,13 @@
 body {
-   font-family: Arial;
+    font-family: Arial;
     text-align: center;
-    background: linear-gradient(to right, pink, lightblue);
-    padding: 20px;
+    background: url("rosas.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     height: 100vh; 
+    
+   
 }
 
 h1 {
@@ -12,9 +17,34 @@ h1 {
 button {
     padding: 15px 25px;
     font-size: 20px;
+     margin-top: 25px;
     background: hotpink;
     border: none;
     color: white;
     border-radius: 10px;
     cursor: pointer;
+}
+.poema-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.poema {
+  font-size: 18px;
+    color: black;
+    margin: 15px auto;
+    font-style: italic;
+    max-width: 300px;
+}
+.btn-poema{
+    margin-top: 20px;;
+}
+
+#imagenPoema {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 15px;
+    margin: 20px auto;
+    display: block;
 }

@@ -9,18 +9,22 @@
 <body>
     <div id="pantalla1">
     <h1>¿Quieres ingresar? 😳</h1>
+        <p class="poema">
+        No sé si esto es suerte o destino,<br>
+        pero desde que llegaste a mi vida,<br>
+        todo se siente más bonito… 💖
+    </p>
     <button onclick="entrar()">Sí 💖</button>
 </div>
 
 <div id="pantalla2" style="display:none;">
-    <h1>💌 Invitación 💌</h1>
-    <p>
-        Te invito a una cita este <br>
-        <strong>Viernes 3 de abril a las 5:00 PM</strong> 🥺💖
-    </p>
-
-    <img src="foto.jpg" style="width: 80%; max-width: 300px;"">
-
+    <h1>💌 Para ti  💌</h1>
+    
+<div class="poema-box">
+    <p id="textoPoema" class="poema"></p>
+    <img  id="imagenPoema" style="width:80%; max-width:300px; border-radius:15px; margin:20px 0">
+    <button class="btn-poema" onclick="siguientePoema()">Siguiente 💕</button>
+</div>   
     <audio id = "musica" loop>
         <source src="cancion.mp3" type="audio/mpeg">
     </audio>
