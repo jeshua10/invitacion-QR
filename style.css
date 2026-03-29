@@ -1,0 +1,19 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: linear-gradient(to right, pink, lightblue);
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background: hotpink;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
