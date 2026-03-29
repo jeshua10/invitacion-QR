@@ -58,7 +58,7 @@ function siguientePoema() {
     if (indice < poemas.length) {
         mostrarPoema();
     } else {
-        document.getElementById("pantalla2").innerHTML = `
+        document.querySelector(".poema-box").innerHTML = `
             <h2>💖 Te invito a una cita  💖</h2>
             <img src="foto.jpg" style="width:80%; max-width:300px; border-radius:15px; margin:20px 0;">
             <p>Viernes 3 de abril a las 5:00 PM 🥺💖</p>
